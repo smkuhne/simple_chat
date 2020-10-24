@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .terrible-red {
+            color: red;
+        }
+    </style>
+    <div class="terrible-red">
+        Welcome Cybersecurity Club!
+        <button>Click Me!</button>
+        {% for message in messages %}
+            <div>{{message}}</div>
+        {% endfor %}
+        <div>The end</div>
+    </div>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form class="form-inline" method="post">
+    <div class="form-group lg-2">
+        <input class="form-control" type="message" id="name" name="name" placeholder="Your name here">
+        <div class="divider"></div>
+        <input class="form-control" type="message" id="message" name="message" placeholder="Send message here">
+        <div class="divider"></div>
+        <button type="submit" class="btn btn-primary">Send</button>
+    </div>
+</form>
